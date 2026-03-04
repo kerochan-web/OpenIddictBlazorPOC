@@ -1,0 +1,6 @@
+@OSC.OpenIddict.AuthorizationServer_HostAddress = http://localhost:5181
+
+GET {{OSC.OpenIddict.AuthorizationServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

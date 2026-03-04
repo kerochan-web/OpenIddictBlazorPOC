@@ -1,0 +1,6 @@
+In the package manager console, run the following commands:
+1. Execute this command to build the migration from the DbContext
+Add-Migration InitialIdentityAndOpenIddict
+
+2. Execute this command to apply the migration to the database
+Update-Database

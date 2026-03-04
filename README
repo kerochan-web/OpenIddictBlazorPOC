@@ -1,0 +1,9 @@
+Running the solution:
+
+1. Start the Authorization Server (HTTPS profile)
+2. Start the Blazor Client
+3. (Optional) Start the Web API
+
+Note: Visual Studio users must ensure the "https" profile is selected
+for the Authorization Server, as the Blazor client expects:
+https://localhost:7059

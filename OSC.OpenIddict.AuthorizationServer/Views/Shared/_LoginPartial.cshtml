@@ -1,0 +1,18 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<OSC.OpenIddict.AuthorizationServer.DbContext.ApplicationUser> SignInManager
+@inject UserManager<OSC.OpenIddict.AuthorizationServer.DbContext.ApplicationUser> UserManager
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <span class="nav-link text-dark">Hello @User.Identity?.Name!</span>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="/Account/Login">Login</a>
+    </li>
+}
+</ul>

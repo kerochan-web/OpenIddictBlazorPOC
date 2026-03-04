@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="OSC.OpenIddict.AuthorizationServer/OSC.OpenIddict.AuthorizationServer.csproj" />
+  <Project Path="OSC.OpenIddict.Web/OSC.OpenIddict.Web.Client/OSC.OpenIddict.Web.Client.csproj" />
+  <Project Path="OSC.OpenIddict.Web/OSC.OpenIddict.Web/OSC.OpenIddict.Web.csproj" />
+  <Project Path="OSC.OpenIddict.WebApi/OSC.OpenIddict.WebApi.csproj" />
+</Solution>
