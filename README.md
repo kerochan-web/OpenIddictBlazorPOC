@@ -2,6 +2,8 @@
 
 This repository contains a production-grade Proof of Concept (POC) for a centralized identity management system. It leverages **OpenIddict** to provide a secure, self-hosted OAuth2/OpenID Connect (OIDC) environment, serving as the single source of truth for both web and future mobile clients.
 
+[Demo video](https://files.catbox.moe/m9brxc.webm)
+
 ## Architecture Overview
 
 The solution is built on a decoupled architecture to ensure that the user's identity is managed independently of the application logic.
@@ -81,7 +83,6 @@ The POC supports Google, Facebook, and Amazon SSO. You must configure your Clien
 ├── OSC.OpenIddict.Web.Client          # Blazor WASM components
 ├── OSC.OpenIddict.WebApi              # Secured Resource API
 └── OSC.OpenIddict.slnx                # Visual Studio Solution
-
 ```
 
 ---
