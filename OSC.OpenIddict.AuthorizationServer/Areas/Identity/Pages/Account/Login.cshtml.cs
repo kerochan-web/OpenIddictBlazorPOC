@@ -20,6 +20,9 @@ namespace OSC.OpenIddict.AuthorizationServer.Areas.Identity.Pages.Account
 {
     public class LoginModel : PageModel
     {
+        [TempData]
+        public string StatusMessage { get; set; }
+
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
 
